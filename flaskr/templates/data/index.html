@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+
+{% block header %}
+
+    <hr width="80%">
+    <p>
+    <div class="upload_div">
+        <form action="/upload" enctype='multipart/form-data' method='POST' class="upload">
+            <input type="file" name="file">
+            <input type="submit" value="上传">
+        </form>
+    </div>
+
+    <div class="two_button">
+        <button onclick="window.location.href='{{ url_for("data.solve") }}'" class="button">处理数据</button>
+        <button onclick="window.location.href='{{ url_for("data.result") }}'" class="button">显示结果</button>
+    </div>
+
+    <div>
+        
+    </div>
+    
+{% endblock %}
+
+

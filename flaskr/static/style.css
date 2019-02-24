@@ -1,0 +1,134 @@
+select{background-image: url(bg.jpeg)}
+
+
+
+.login-body{
+        width: 50%;
+    margin:0 auto;
+}
+
+.login-heading{
+    background: #67d3e0;
+    padding: 1em 0em;
+}
+
+.login-heading h1{
+    color: #FFFFFF;
+    font-size: 2em;
+        text-align:center;
+}
+
+.login-info input[name="username"], .login-info input[name="password"] {
+    font-size: 0.9em;
+    padding: 10px 0px;
+    width: 100%;
+    color: #A8A8A8;
+    outline: none;
+    border: 1px solid #D3D3D3;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: #FFFFFF;
+    margin: 0em 0em 1.5em 0em;
+}
+
+.login-info input[type="submit"] {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #000;
+    background: #ddd;
+    width: 60%;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    margin: 1.5em 8em;
+}
+.login-info input[type="submit"]:hover{
+        background:#67d3e0;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all ;
+        -ms-transition: 0.5s all;
+}
+
+
+.pagination ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination ul li {
+    display: inline;
+}
+
+.pagination ul li span {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination ul li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination ul li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination ul li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.upload_div{
+    text-align:center;
+    margin:1.5em 0;
+}
+
+.upload input[type="submit"]{
+    font-size: 18px;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.upload input[type="submit"]:hover{
+    background-color: #3e8e41
+}
+
+.upload input[type="submit"]:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button{
+    font-size: 24px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #008CBA; 
+    color: white;
+}
+
+.two_button{
+    margin: 2em 0;
+}
